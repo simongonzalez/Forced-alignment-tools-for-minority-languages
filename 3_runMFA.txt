@@ -1,0 +1,10 @@
+Commands to run MFA in prepared files
+
+Path to force-aligner
+cd path_to_montreal-forced-aligner
+
+Run for train align
+bin/mfa_train_and_align path_to_input_folder path_to_dictionary path_to_output_folder -o path_to_output_acoustic_model
+
+Run with a pre-trained model
+bin/mfa_align path_to_input_folder ath_to_dictionary path_to_output_acoustic_model path_to_output_folder
