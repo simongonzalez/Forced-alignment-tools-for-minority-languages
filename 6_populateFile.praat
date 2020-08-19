@@ -2,19 +2,19 @@
 #Author: simon gonzalez (simon.gonzalez@anu.edu.au)
 
 #specify the file name without extension
-filename$ = "eibela"
+filename$ = "csvfilename"
 
 #directory where the output TextGrids are located
-  directory_textgrid$ = "/Users/u1037706/Dropbox/TIG2018/languages/eibela/alignment_20200305/testfiles"
+  directory_textgrid$ = "path_to_textgrid_force-alignment_outputs"
 
 #directory where the Formant files are located
-  directory_formant$ = "/Users/u1037706/Dropbox/TIG2018/languages/eibela/alignment_20200305/testfiles"
+  directory_formant$ = "path_to_formant_files"
 
 #directory where the Pitch files are located
-  directory_pitch$ = "/Users/u1037706/Dropbox/TIG2018/languages/eibela/alignment_20200305/testfiles"
+  directory_pitch$ = "path_to_pitch_files"
 
 #directory where the Intensity files are located
-  directory_intensity$ = "/Users/u1037706/Dropbox/TIG2018/languages/eibela/alignment_20200305/testfiles"
+  directory_intensity$ = "path_to_intensity_files"
 
 	#loads the csv file
 	#........................................................
