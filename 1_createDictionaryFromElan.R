@@ -1,6 +1,7 @@
 #This script creates a pronunciation dictionary from the transcription files
 #in Elan format. It also creates the corresponding transcription TextGrids.
-#To achieve this, it also needs access to the corresponding audio files
+#To achieve this, it also needs access to the corresponding audio files.
+#Audio files must be in WAV format.
 #Author: Simon Gonzalez - simon.gonzalez@anu.edu.au
 
 #loads libraries
